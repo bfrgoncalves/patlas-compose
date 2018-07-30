@@ -1,13 +1,13 @@
 # pATLAS-compose
-repository for patlas docker-compose recipe!
+Repository for [pATLAS](www.patlas.site) docker-compose recipe! This
+compose currently supports [pATLAS version 1.5.2](https://github.com/tiagofilipe12/pATLAS/releases/tag/1.5.2).
 
-### Requirements
+## Requirements
 
-- docker
-- docker-compose
+- [docker](https://docs.docker.com/install/#supported-platforms)
+- [docker-compose](https://docs.docker.com/compose/install/)
 
-### How to use?
-
+## How to use?
 
 - Clone the repository
 - Enter the *patlas-compose* folder
