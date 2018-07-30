@@ -17,5 +17,5 @@ services:
     depends_on:
       - "db_patlas"
     ports:
-      - "80:5000"
+      - "5000:5000"
     command: ["init_all"]

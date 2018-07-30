@@ -2,6 +2,9 @@
 
 if [ "$1" = "init_all" ]
 then
+    # Wait for postgres
+    sleep 2
+
     # Add database
     export PGPASSWORD=patlas
     psql -h db_patlas -U patlas patlas < plasmid_db_dev_final.sql
