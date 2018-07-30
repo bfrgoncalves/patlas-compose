@@ -1,0 +1,21 @@
+version: '3'
+services:
+
+  # DB for pATLAS.
+  db_patlas:
+    image: postgres:10
+    restart: always
+    environment:
+      POSTGRES_USER: "patlas"
+      POSTGRES_PASSWORD: "patlas"
+      POSTGRES_DB: "patlas"
+
+  # Service for pATLAS
+  patlas:
+    build: ./components/pATLAS
+    restart: on-failure
+    depends_on:
+      - "db_patlas"
+    ports:
+      - "80:5000"
+    command: ["init_all"]
