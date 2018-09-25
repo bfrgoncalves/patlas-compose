@@ -31,7 +31,7 @@ WORKDIR /pATLAS/pATLAS/patlas/db_manager
 
 # Get and extract pATLAS db
 # Release 1.5.2
-RUN wget https://github.com/tiagofilipe12/pATLAS/releases/download/1.5.2/plasmid_db_dev_final.tar.gz
+RUN wget https://github.com/tiagofilipe12/pATLAS/releases/download/1.6.0/plasmid_db_dev_final.tar.gz
 RUN tar xf plasmid_db_dev_final.tar.gz
 RUN rm plasmid_db_dev_final.tar.gz
 

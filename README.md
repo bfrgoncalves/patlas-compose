@@ -1,6 +1,7 @@
 # pATLAS-compose
 Repository for [pATLAS](www.patlas.site) docker-compose recipe! This
-compose currently supports [pATLAS version 1.5.2](https://github.com/tiagofilipe12/pATLAS/releases/tag/1.5.2).
+compose currently supports 
+[pATLAS version 1.6.0](https://github.com/tiagofilipe12/pATLAS/releases/tag/1.6.0).
 
 ## Requirements
 
