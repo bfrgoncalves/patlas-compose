@@ -17,3 +17,8 @@ compose currently supports
 ` to show up, meaning that the service is now running.
 - Access on `127.0.0.1:5000`
 - Enjoy!
+
+## How to stop it?
+
+- Enter the *patlas-compose* folder
+- Type `docker-compose down`
